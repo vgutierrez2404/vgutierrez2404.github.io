@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  <title>Víctor Gutiérrez</title>
+  
+  <meta name="author" content="Víctor Gutiérrez García">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=2026">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <span class="name">Víctor Gutiérrez García</span>
+              </p>
+              <p style="text-align:center">
+              Email: <a href="mailto:v.ggarcia@upm.es">v.ggarcia [at] upm [dot] es</a>
+              <p>
+                  PhD student in the <a href="https://www.gaps.ssr.upm.es/">Signal Processing Applications Group (GAPS-UPM)</a> 
+                  advised by <a href="https://scholar.google.com/citations?user=J-zt09cAAAAJ&hl=es">Dr. José Luis Blanco Murillo</a>.
+                  Currently, I am working on efficient unsupervised image segmentation algorithms.
+              </p>
+              <p>
+                  I obtained my MSc in Signal Processing and Machine Learning (2025) and BSc in Telecommunications Engineering (2024) from UPM. 
+                  Before starting my PhD, I worked as a researcher on the DigiEcoQuarry project, estimating stockpile volumes from video footage.
+                  Earlier, I worked at <a href="https://www.advancedradartechnologies.com/">Advanced Radar Technologies</a> as a Software Engineer, developing radar tracking algorithms and simulations.
+              </p>
+              <p style="text-align:center">
+                <a href="javascript:void(0)" onclick="showPdfModal('data/curriculum.pdf')">Cv</a> / 
+                <a href="https://github.com/vgutierrez2404">GitHub</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/me.jpeg"><img alt="profile photo" src="images/me.jpeg" class="hoverZoomLink profile-photo"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:100%;vertical-align:middle">
+                      <heading>News</heading>
+          <hr/>
+                <ul>
+                <li>
+                  <!--<b style="background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);">28 / 07 / 2023</b>&emsp;-->
+                <a href ="https://github.com/vgutierrez2404/maskgenerator" >Sam2-based tool</a> adapted for annotation of large videos without OOM 
+                </li>
+
+                </ul>
+          </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I'm interested in computer vision, especially in designing efficient networks for image/video segmentation, representation and manifold learnign, among others. 
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="panc_stop()" onmouseover="panc_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='panc_image' style="opacity: 0;">
+                      <img src='data/panc_after.png' width="100%" alt="PANC visualization">
+                    </div>
+                    <img src='data/panc_before.png' width="100%" alt="PANC placeholder">
+                  </div>
+                  <script type="text/javascript">
+                    function panc_start() {
+                      document.getElementById('panc_image').style.opacity = "1";
+                    }
+                    function panc_stop() {
+                      document.getElementById('panc_image').style.opacity = "0";
+                    }
+                    panc_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2602.06912">
+                    <span class="papertitle">PANC: Prior-Aware Normalized Cut for Object Segmentation</span>
+                  </a>
+                  <br>
+                  <a class="author-juan">Juan Gutiérrez</a>,
+                  <strong>Víctor Gutiérrez</strong>,
+                  <a class="author-joseluis">José Luis Blanco</a>
+                  <br>
+                  <em>Preprint</em>, 2026
+                  <br>
+                  <a href="https://arxiv.org/abs/2602.06912">arXiv</a> 
+                  | <a href="javascript:void(0)" class="bibtex-link" onclick="showBibtexModal('data/panc.bib')">bibtex</a>
+                  <p></p>
+                  <p>
+                    A weakly supervised spectral segmentation method that injects a few annotated tokens into a token–affinity graph to bias normalized-cut clustering for stable, controllable object masks.
+                  </p>
+                </td>
+              </tr>
+            <tr onmouseout="hitl_stop()" onmouseover="hitl_start()">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='hitl_image' style="opacity: 0;">
+                      <img src='data/hitl_after.png' width=100% alt="HITL visualization">
+                    </div>
+                    <img src='data/hitl_before.png' width=100% alt="HITL placeholder">
+                  </div>
+                  <script type="text/javascript">
+                    function hitl_start() {
+                      document.getElementById('hitl_image').style.opacity = "1";
+                    }
+                    function hitl_stop() {
+                      document.getElementById('hitl_image').style.opacity = "0";
+                    }
+                    hitl_stop()
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2510.21798">
+                    <span class="papertitle">An Evaluation of Hybrid Annotation Workflows on High-Ambiguity Spatiotemporal Video Footage</span>
+                  </a>
+                  <br>
+                  <a class="author-juan">Juan Gutiérrez</a>,
+                  <strong>Víctor Gutiérrez</strong>,
+                  Ángel Mora-Sánchez,
+                  Silvia Rodríguez-Jiménez,
+                  <a class="author-joseluis">José Luis Blanco-Murillo</a>
+                  <br>
+                  <em>Preprint</em>, 2026
+                  <br>
+                  <a href="https://arxiv.org/abs/2510.21798">arXiv</a> 
+                  | <a href="javascript:void(0)" class="bibtex-link" onclick="showBibtexModal('data/hitl.bib')">bibtex</a>
+                  <p></p>
+                  <p>
+                    Benchmarking assisted annotation workflows using fine-tuned vision-language model for video.
+                  </p>
+                </td>
+              </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+            </tbody>
+         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+           <hr/>
+              <tr>
+                <td>
+                <br>
+                <p align="right"><font size="2">
+                  This website takes <a href="https://github.com/jonbarron/website"> Joe Barron's</a> template with modifications from <a href="https://yangtaowang95.github.io/">Yangtao Wang</a>.
+                </font>
+                </p>
+                <p align="right"><font size="2">
+                    Last update: Feb 2026
+                </p>
+                </td>
+              </tr>
+         </table>
+
+
+      </td>
+    </tr>
+  </table>
+
+<!-- PDF Modal -->
+<div id="pdf-overlay" class="pdf-overlay">
+  <div class="pdf-modal">
+    <div class="pdf-header">
+      <h3>Curriculum Vitae</h3>
+      <button class="pdf-close" onclick="closePdfModal()">×</button>
+    </div>
+    <div class="pdf-body">
+      <iframe id="pdf-frame" src="" width="100%" height="100%"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- BibTeX Modal -->
+<div id="bibtex-overlay" class="bibtex-overlay">
+  <div class="bibtex-modal">
+    <div class="bibtex-header">
+      <h3>BibTeX</h3>
+      <button class="bibtex-close" onclick="closeBibtexModal()">×</button>
+    </div>
+    <div class="bibtex-body">
+      <pre id="bibtex-content"></pre>
+    </div>
+    <div class="bibtex-footer">
+      <button class="bibtex-copy-btn" onclick="copyBibtex()">Copy to Clipboard</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const authorURLs = {
+    joseLuisBlanco: "https://scholar.google.com/citations?hl=es&user=J-zt09cAAAAJ&view_op=list_works",
+    JuanGutierrez: "https://jgnav.github.io/"
+  };
+</script>
+
+
+<script>
+  document.querySelectorAll('.author-joseluis').forEach(el => el.href = authorURLs.joseLuisBlanco);
+  document.querySelectorAll('.author-juan').forEach(el => el.href = authorURLs.JuanGutierrez);
+
+  // BibTeX Modal Functions
+  function showBibtexModal(bibPath) {
+    fetch(bibPath)
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('bibtex-content').textContent = data.trim();
+        document.getElementById('bibtex-overlay').classList.add('active');
+      })
+      .catch(error => {
+        console.error('Error loading BibTeX:', error);
+        alert('Error loading BibTeX file');
+      });
+  }
+
+  function closeBibtexModal() {
+    document.getElementById('bibtex-overlay').classList.remove('active');
+    const copyBtn = document.querySelector('.bibtex-copy-btn');
+    copyBtn.textContent = 'Copy to Clipboard';
+    copyBtn.classList.remove('copied');
+  }
+
+  function copyBibtex() {
+    const bibtexText = document.getElementById('bibtex-content').textContent;
+    navigator.clipboard.writeText(bibtexText).then(() => {
+      const copyBtn = document.querySelector('.bibtex-copy-btn');
+      copyBtn.textContent = 'Copied!';
+      copyBtn.classList.add('copied');
+      setTimeout(() => {
+        copyBtn.textContent = 'Copy to Clipboard';
+        copyBtn.classList.remove('copied');
+      }, 2000);
+    }).catch(err => {
+      console.error('Failed to copy:', err);
+      alert('Failed to copy to clipboard');
+    });
+  }
+
+  // Close modal when clicking outside
+  document.getElementById('bibtex-overlay').addEventListener('click', function(e) {
+    if (e.target === this) {
+      closeBibtexModal();
+    }
+  });
+
+  // Close modal with Escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      closeBibtexModal();
+      closePdfModal();
+    }
+  });
+
+  // PDF Modal Functions
+  function showPdfModal(pdfPath) {
+    document.getElementById('pdf-frame').src = pdfPath;
+    document.getElementById('pdf-overlay').classList.add('active');
+  }
+
+  function closePdfModal() {
+    document.getElementById('pdf-overlay').classList.remove('active');
+    document.getElementById('pdf-frame').src = "";
+  }
+  
+  // Close PDF modal when clicking outside
+  document.getElementById('pdf-overlay').addEventListener('click', function(e) {
+    if (e.target === this) {
+      closePdfModal();
+    }
+  });
+</script>
+
+</body>
