@@ -1,0 +1,103 @@
+{
+  "name": "Víctor Gutiérrez García",
+  "role": "PhD student in computer vision at GAPS-UPM",
+  "home": {
+    "bio": "I am a PhD student in the Signal Processing Applications Group (GAPS-UPM) at Universidad Politécnica de Madrid, advised by Dr. José Luis Blanco Murillo. My research focuses on efficient unsupervised image segmentation algorithms.",
+    "note": "I received an MSc in Signal Processing and Machine Learning in 2025 and a BSc in Telecommunications Engineering in 2024 from UPM. Before starting my PhD, I worked on stockpile volume estimation for the DigiEcoQuarry project and developed radar tracking algorithms and simulations at Advanced Radar Technologies.",
+    "photo": "/images/me.jpeg",
+    "news": [
+      {
+        "text": "adapted for annotating long videos without running out of memory.",
+        "href": "https://github.com/vgutierrez2404/maskgenerator",
+        "linkText": "SAM2-based tool"
+      }
+    ],
+    "research": "I am interested in computer vision, especially efficient networks for image and video segmentation, representation learning, and manifold learning.",
+    "publications": [
+      {
+        "title": "PANC: Prior-Aware Normalized Cut for Object Segmentation",
+        "authors": "Juan Gutiérrez, Víctor Gutiérrez, and José Luis Blanco",
+        "venue": "Preprint, 2026",
+        "description": "A weakly supervised spectral segmentation method that injects a few annotated tokens into a token-affinity graph to guide normalized-cut clustering toward stable, controllable object masks.",
+        "image": "/research/panc_before.png",
+        "imageAlt": "PANC segmentation example",
+        "links": [
+          { "label": "arXiv", "href": "https://arxiv.org/abs/2602.06912" },
+          { "label": "BibTeX", "href": "/research/panc.bib" }
+        ]
+      },
+      {
+        "title": "An Evaluation of Hybrid Annotation Workflows on High-Ambiguity Spatiotemporal Video Footage",
+        "authors": "Juan Gutiérrez, Víctor Gutiérrez, Ángel Mora-Sánchez, Silvia Rodríguez-Jiménez, and José Luis Blanco-Murillo",
+        "venue": "Preprint, 2026",
+        "description": "An evaluation of assisted video annotation workflows using a fine-tuned vision-language model.",
+        "image": "/research/hitl_before.png",
+        "imageAlt": "Hybrid annotation workflow example",
+        "links": [
+          { "label": "arXiv", "href": "https://arxiv.org/abs/2510.21798" },
+          { "label": "BibTeX", "href": "/research/hitl.bib" }
+        ]
+      }
+    ]
+  },
+  "site": {
+    "name": "Víctor Gutiérrez García",
+    "url": "https://vgutierrez2404.github.io",
+    "title": "Víctor Gutiérrez García - Computer Vision Researcher",
+    "description": "Víctor Gutiérrez García is a PhD student at GAPS-UPM researching efficient computer vision and image segmentation.",
+    "locale": "en_US",
+    "ogImage": "/images/me.jpeg"
+  },
+  "contacts": [
+    { "label": "email", "text": "v.ggarcia@upm.es", "href": "mailto:v.ggarcia@upm.es" },
+    { "label": "GitHub", "text": "@vgutierrez2404", "href": "https://github.com/vgutierrez2404", "target": "_blank", "rel": "noopener noreferrer" },
+    { "label": "LinkedIn", "text": "victorgutierrezgarciamadrid", "href": "https://linkedin.com/in/victorgutierrezgarciamadrid/", "target": "_blank", "rel": "noopener noreferrer" },
+    { "label": "GAPS-UPM", "text": "Signal Processing Applications Group", "href": "https://www.gaps.ssr.upm.es/", "target": "_blank", "rel": "noopener noreferrer" }
+  ],
+  "resume": {
+    "name": "Víctor Gutiérrez García",
+    "role": "PhD Researcher in Computer Vision",
+    "bio": "PhD researcher at the Signal Processing Applications Group, Universidad Politécnica de Madrid, working on efficient computer vision, image segmentation, and representation learning.",
+    "downloads": {
+      "cv": { "label": "download CV", "text": "curriculum.pdf", "href": "/curriculum.pdf", "filename": "Victor-Gutierrez-CV.pdf" },
+      "pgp": { "label": "", "text": "", "href": "" }
+    },
+    "experience": [
+      {
+        "role": "PhD Researcher",
+        "company": "Signal Processing Applications Group, Universidad Politécnica de Madrid",
+        "period": "Sep. 2025 — Present",
+        "description": ["Research on computer vision, efficient feature representation and data selection, low-resource architectures, and 3D reconstruction.", "Working on efficient unsupervised image segmentation."]
+      },
+      {
+        "role": "Researcher",
+        "company": "Signal Processing Applications Group, Universidad Politécnica de Madrid",
+        "period": "Nov. 2024 — Aug. 2025",
+        "description": ["Worked on the European DigiEcoQuarry project, applying signal processing and computer vision to estimate stockpile volumes from video.", "Adapted the SAM2 video-processing pipeline for semantic segmentation of long video sequences."]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Advanced Radar Technologies",
+        "period": "Sep. 2022 — Aug. 2024",
+        "description": ["Implemented radar tracking algorithms, tracker evaluation metrics, and DBSCAN clustering for radar tracks.", "Developed radar simulation features, target classification, data visualization tools, and MATLAB tools for measurement post-processing."]
+      },
+      {
+        "role": "Private Tutor",
+        "company": "Freelance",
+        "period": "Sep. 2018 — Mar. 2020",
+        "description": ["Tutored high-school students in mathematics, physics, and chemistry."]
+      }
+    ],
+    "skills": [
+      { "category": "Languages", "items": ["C#", "Python", "MATLAB", "LaTeX"] },
+      { "category": "Computer Vision", "items": ["PyTorch", "OpenCV", "Image segmentation", "Object tracking"] },
+      { "category": "Tools", "items": ["Git", "VS Code", "Visual Studio", "JIRA"] },
+      { "category": "Methods", "items": ["Signal processing", "Radar tracking", "DBSCAN", "3D reconstruction"] }
+    ],
+    "education": [
+      { "degree": "PhD Researcher", "institution": "Signal Processing Applications Group, Universidad Politécnica de Madrid", "period": "Sep. 2025 — Present", "details": ["Research in computer vision and efficient image segmentation."] },
+      { "degree": "MSc in Signal Processing and Machine Learning for Big Data", "institution": "Universidad Politécnica de Madrid", "period": "Sep. 2023 — Sep. 2025", "details": ["Thesis: Deep learning architecture for joint image segmentation and depth estimation in multi-camera systems."] },
+      { "degree": "BSc in Telecommunications Engineering", "institution": "Universidad Politécnica de Madrid", "period": "Sep. 2018 — Jun. 2024", "details": ["Thesis: Evaluation and optimization of tracking algorithms using OSPA metrics."] }
+    ]
+  }
+}
