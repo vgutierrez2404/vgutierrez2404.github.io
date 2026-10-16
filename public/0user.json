@@ -2,24 +2,31 @@
   "name": "Víctor Gutiérrez García",
   "role": "PhD student in computer vision at GAPS-UPM",
   "home": {
-    "bio": "I am a PhD student in the Signal Processing Applications Group (GAPS-UPM) at Universidad Politécnica de Madrid, advised by Dr. José Luis Blanco Murillo. My research focuses on efficient unsupervised image segmentation algorithms.",
-    "note": "I received an MSc in Signal Processing and Machine Learning in 2025 and a BSc in Telecommunications Engineering in 2024 from UPM. Before starting my PhD, I worked on stockpile volume estimation for the DigiEcoQuarry project and developed radar tracking algorithms and simulations at Advanced Radar Technologies.",
-    "photo": "/images/me.jpeg",
+    "bio": "I am a PhD student in the Signal Processing Applications Group ([GAPS-UPM](https://www.gaps.ssr.upm.es/)) at Universidad Politécnica de Madrid, advised by Dr. José Luis Blanco Murillo. My research focuses on efficient unsupervised image segmentation algorithms.",
+    "note": "I received an MSc in Signal Processing and Machine Learning in 2025 and a BSc in Telecommunications Engineering in 2024 from UPM. Before starting my PhD, I worked on stockpile volume estimation for the European project DigiEcoQuarry. Previously I developed radar tracking algorithms and simulations at Advanced Radar Technologies.",
+    "photo": "me",
     "news": [
       {
+        "date": "2026-07-11",
+        "text": "was presented at the Pluralistic Alignment Workshop at ICML 2026 in Seoul, South Korea.",
+        "href": "https://openreview.net/pdf?id=JxiOoHqbXl",
+        "linkText": "Does AI Assistance Preserve or Collapse Disagreement? A Study of Pre-Annotations in Ambiguous Video Labeling"
+      },
+      {
+        "date": "2025-03-22",
         "text": "adapted for annotating long videos without running out of memory.",
         "href": "https://github.com/vgutierrez2404/maskgenerator",
         "linkText": "SAM2-based tool"
       }
     ],
-    "research": "I am interested in computer vision, especially efficient networks for image and video segmentation, representation learning, and manifold learning.",
+    "research": "I am interested in computer vision, especially in how to make more efficient neural networks, representation learning, and manifold learning.",
     "publications": [
       {
-        "title": "PANC: Prior-Aware Normalized Cut for Object Segmentation",
-        "authors": "Juan Gutiérrez, Víctor Gutiérrez, and José Luis Blanco",
+        "title": "PANC: Prior-Aware Normalized Cut via Anchor-Augmented Token Graphs",
+        "authors": "Juan Gutiérrez, Victor Gutiérrez-García, and José Luis Blanco-Murillo",
         "venue": "Preprint, 2026",
-        "description": "A weakly supervised spectral segmentation method that injects a few annotated tokens into a token-affinity graph to guide normalized-cut clustering toward stable, controllable object masks.",
-        "image": "/research/panc_before.png",
+        "description": "A training-free method for consistent, user-steerable segmentation from self-supervised ViT patches. PANC connects labeled prior tokens to foreground and background anchors, guiding normalized-cut partitions while preserving global spectral structure.",
+        "image": "panc_before",
         "imageAlt": "PANC segmentation example",
         "links": [
           { "label": "arXiv", "href": "https://arxiv.org/abs/2602.06912" },
@@ -27,14 +34,14 @@
         ]
       },
       {
-        "title": "An Evaluation of Hybrid Annotation Workflows on High-Ambiguity Spatiotemporal Video Footage",
-        "authors": "Juan Gutiérrez, Víctor Gutiérrez, Ángel Mora-Sánchez, Silvia Rodríguez-Jiménez, and José Luis Blanco-Murillo",
-        "venue": "Preprint, 2026",
-        "description": "An evaluation of assisted video annotation workflows using a fine-tuned vision-language model.",
-        "image": "/research/hitl_before.png",
-        "imageAlt": "Hybrid annotation workflow example",
+        "title": "Does AI Assistance Preserve or Collapse Disagreement? A Study of Pre-Annotations in Ambiguous Video Labeling",
+        "authors": "Juan Gutiérrez, Victor Gutiérrez-García, and José Luis Blanco-Murillo",
+        "venue": "Pluralistic Alignment Workshop at ICML 2026, Seoul, South Korea",
+        "description": "A controlled pilot study of AI-assisted video annotation with 18 annotators and 180 sessions. Pre-annotations reduced mean annotation time by 23.11% and increased consistency and latent-space standardization, while semantic-label entropy changed little; the results leave open whether meaningful disagreement is preserved.",
+        "image": "hitl_before",
+        "imageAlt": "AI-assisted video annotation example",
         "links": [
-          { "label": "arXiv", "href": "https://arxiv.org/abs/2510.21798" },
+          { "label": "OpenReview PDF", "href": "https://icml.cc/virtual/2026/75673" },
           { "label": "BibTeX", "href": "/research/hitl.bib" }
         ]
       }
@@ -45,8 +52,7 @@
     "url": "https://vgutierrez2404.github.io",
     "title": "Víctor Gutiérrez García - Computer Vision Researcher",
     "description": "Víctor Gutiérrez García is a PhD student at GAPS-UPM researching efficient computer vision and image segmentation.",
-    "locale": "en_US",
-    "ogImage": "/images/me.jpeg"
+    "locale": "en_US"
   },
   "contacts": [
     { "label": "email", "text": "v.ggarcia@upm.es", "href": "mailto:v.ggarcia@upm.es" },

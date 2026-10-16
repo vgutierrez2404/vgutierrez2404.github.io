@@ -3,6 +3,7 @@ import "../styles/global.css";
 import "katex/dist/katex.min.css";
 import Navigation from '../components/Navigation.astro';
 import { info } from '../lib/info.ts';
+import profilePhoto from '../assets/me.jpeg';
 
 interface BaseProps { title?: string; description?: string; ogImage?: string }
 const { title = info.site.title, description = info.site.description, ogImage } = Astro.props as BaseProps;
@@ -10,7 +11,7 @@ const siteName = info.site.name;
 const canonical = info.site.url;
 const siteUrl = info.site.url;
 const siteLocale = info.site.locale ?? 'en_US';
-const resolvedOgImage = ogImage ?? (info.site.ogImage || undefined);
+const resolvedOgImage = ogImage ?? (info.site.ogImage ? new URL(info.site.ogImage, info.site.url).href : new URL(profilePhoto.src, info.site.url).href);
 ---
 <html lang="en">
 <head>

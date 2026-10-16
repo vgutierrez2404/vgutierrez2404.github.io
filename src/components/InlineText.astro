@@ -1,0 +1,24 @@
+---
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+const linkPattern = /\[([^\]]+)\]\((https?:\/\/[^\s)]+|mailto:[^\s)]+|\/[^\s)]*)\)/g;
+const parts: Array<{ text: string; href?: string }> = [];
+let cursor = 0;
+
+for (const match of text.matchAll(linkPattern)) {
+  const start = match.index ?? 0;
+  if (start > cursor) parts.push({ text: text.slice(cursor, start) });
+  parts.push({ text: match[1], href: match[2] });
+  cursor = start + match[0].length;
+}
+
+if (cursor < text.length) parts.push({ text: text.slice(cursor) });
+---
+
+{parts.map((part) => part.href
+  ? <a href={part.href} target={part.href.startsWith('http') ? '_blank' : undefined} rel={part.href.startsWith('http') ? 'noopener noreferrer' : undefined} class="underline underline-offset-2 decoration-accent/50 hover:text-accent hover:decoration-accent transition-colors">{part.text}</a>
+  : part.text
+)}
