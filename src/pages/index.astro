@@ -25,20 +25,40 @@ function imageFor(id: string) {
             <div class="flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between gap-6 mb-6">
                 <div>
                     <h1 class="mb-2 text-3xl md:text-4xl font-bold tracking-tight text-balance">{siteInfo.name}</h1>
-                    <p class="text-lg md:text-xl text-muted-foreground">{siteInfo.role}</p>
+                    <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+                        {siteInfo.contacts.filter((contact) => ['email', 'GitHub', 'LinkedIn'].includes(contact.label)).map((contact) => (
+                            contact.label === 'GitHub' || contact.label === 'LinkedIn' ? (
+                                <a
+                                    href={contact.href}
+                                    target={contact.target}
+                                    rel={contact.rel}
+                                    class="text-muted-foreground underline underline-offset-2 decoration-accent/50 hover:text-accent hover:decoration-accent transition-colors"
+                                >{contact.label}</a>
+                            ) : (
+                                <div>
+                                    [{contact.label}: <a
+                                        href={contact.href}
+                                        target={contact.target}
+                                        rel={contact.rel}
+                                        class="text-muted-foreground underline underline-offset-2 decoration-accent/50 hover:text-accent hover:decoration-accent transition-colors"
+                                    >{contact.text}</a>]
+                                </div>
+                            )
+                        ))}
+                    </div>
                 </div>
                 {siteInfo.home.photo && <Image src={imageFor(siteInfo.home.photo)} alt={`Portrait of ${siteInfo.name}`} class="w-32 h-32 rounded-full object-cover border border-border" format="webp" quality={80} />}
             </div>
 
-            <p class="mb-4 text-base md:text-lg text-foreground/85 leading-relaxed text-pretty">
+            <p class="mb-4 text-sm md:text-base text-foreground/85 leading-relaxed text-pretty">
                 <InlineText text={siteInfo.home.bio} />
             </p>
-            <p class="mb-10 text-base md:text-lg text-foreground/85 leading-relaxed text-pretty">
+            <p class="mb-10 text-sm md:text-base text-foreground/85 leading-relaxed text-pretty">
                 <InlineText text={siteInfo.home.note} />
             </p>
 
             <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
-                {siteInfo.contacts.map((contact) => (
+                {siteInfo.contacts.filter((contact) => !['email', 'GitHub', 'LinkedIn', 'GAPS-UPM'].includes(contact.label)).map((contact) => (
                         <div>
                             [{contact.label}: <a
                                 href={contact.href}

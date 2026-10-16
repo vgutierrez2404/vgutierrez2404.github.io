@@ -3,7 +3,7 @@
   "role": "PhD student in computer vision at GAPS-UPM",
   "home": {
     "bio": "I am a PhD student in the Signal Processing Applications Group ([GAPS-UPM](https://www.gaps.ssr.upm.es/)) at Universidad Politécnica de Madrid, advised by Dr. José Luis Blanco Murillo. My research focuses on efficient unsupervised image segmentation algorithms.",
-    "note": "I received an MSc in Signal Processing and Machine Learning in 2025 and a BSc in Telecommunications Engineering in 2024 from UPM. Before starting my PhD, I worked on stockpile volume estimation for the European project DigiEcoQuarry. Previously I developed radar tracking algorithms and simulations at Advanced Radar Technologies.",
+    "note": "I received an MSc in Signal Processing and Machine Learning in 2025 and a BSc in Telecommunications Engineering in 2024 from UPM. Before starting my PhD, I worked on stockpile volume estimation for the European project [DigiEcoQuarry](https://digiecoquarry.eu/). Previously I developed radar tracking algorithms and simulations at [Advanced Radar Technologies](https://www.advancedradartechnologies.com/).",
     "photo": "me",
     "news": [
       {
@@ -29,8 +29,14 @@
         "image": "panc_before",
         "imageAlt": "PANC segmentation example",
         "links": [
-          { "label": "arXiv", "href": "https://arxiv.org/abs/2602.06912" },
-          { "label": "BibTeX", "href": "/research/panc.bib" }
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2602.06912"
+          },
+          {
+            "label": "BibTeX",
+            "href": "/research/panc.bib"
+          }
         ]
       },
       {
@@ -41,8 +47,14 @@
         "image": "hitl_before",
         "imageAlt": "AI-assisted video annotation example",
         "links": [
-          { "label": "OpenReview PDF", "href": "https://icml.cc/virtual/2026/75673" },
-          { "label": "BibTeX", "href": "/research/hitl.bib" }
+          {
+            "label": "OpenReview PDF",
+            "href": "https://icml.cc/virtual/2026/75673"
+          },
+          {
+            "label": "BibTeX",
+            "href": "/research/hitl.bib"
+          }
         ]
       }
     ]
@@ -55,55 +67,150 @@
     "locale": "en_US"
   },
   "contacts": [
-    { "label": "email", "text": "v.ggarcia@upm.es", "href": "mailto:v.ggarcia@upm.es" },
-    { "label": "GitHub", "text": "@vgutierrez2404", "href": "https://github.com/vgutierrez2404", "target": "_blank", "rel": "noopener noreferrer" },
-    { "label": "LinkedIn", "text": "victorgutierrezgarciamadrid", "href": "https://linkedin.com/in/victorgutierrezgarciamadrid/", "target": "_blank", "rel": "noopener noreferrer" },
-    { "label": "GAPS-UPM", "text": "Signal Processing Applications Group", "href": "https://www.gaps.ssr.upm.es/", "target": "_blank", "rel": "noopener noreferrer" }
+    {
+      "label": "email",
+      "text": "v.ggarcia@upm.es",
+      "href": "mailto:v.ggarcia@upm.es"
+    },
+    {
+      "label": "GitHub",
+      "text": "@vgutierrez2404",
+      "href": "https://github.com/vgutierrez2404",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "LinkedIn",
+      "text": "victorgutierrezgarciamadrid",
+      "href": "https://linkedin.com/in/victorgutierrezgarciamadrid/",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "GAPS-UPM",
+      "text": "Signal Processing Applications Group",
+      "href": "https://www.gaps.ssr.upm.es/",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    }
   ],
   "resume": {
     "name": "Víctor Gutiérrez García",
     "role": "PhD Researcher in Computer Vision",
     "bio": "PhD researcher at the Signal Processing Applications Group, Universidad Politécnica de Madrid, working on efficient computer vision, image segmentation, and representation learning.",
     "downloads": {
-      "cv": { "label": "download CV", "text": "curriculum.pdf", "href": "/curriculum.pdf", "filename": "Victor-Gutierrez-CV.pdf" },
-      "pgp": { "label": "", "text": "", "href": "" }
+      "cv": {
+        "label": "download CV",
+        "text": "curriculum.pdf",
+        "href": "/curriculum.pdf",
+        "filename": "Victor-Gutierrez-CV.pdf"
+      },
+      "pgp": {
+        "label": "",
+        "text": "",
+        "href": ""
+      }
     },
     "experience": [
       {
         "role": "PhD Researcher",
         "company": "Signal Processing Applications Group, Universidad Politécnica de Madrid",
         "period": "Sep. 2025 — Present",
-        "description": ["Research on computer vision, efficient feature representation and data selection, low-resource architectures, and 3D reconstruction.", "Working on efficient unsupervised image segmentation."]
+        "description": [
+          "Research on computer vision, efficient feature representation and data selection, low-resource architectures, and 3D reconstruction.",
+          "Working on efficient unsupervised image segmentation."
+        ]
       },
       {
         "role": "Researcher",
         "company": "Signal Processing Applications Group, Universidad Politécnica de Madrid",
         "period": "Nov. 2024 — Aug. 2025",
-        "description": ["Worked on the European DigiEcoQuarry project, applying signal processing and computer vision to estimate stockpile volumes from video.", "Adapted the SAM2 video-processing pipeline for semantic segmentation of long video sequences."]
+        "description": [
+          "Worked on the European DigiEcoQuarry project, applying signal processing and computer vision to estimate stockpile volumes from video.",
+          "Adapted the SAM2 video-processing pipeline for semantic segmentation of long video sequences."
+        ]
       },
       {
         "role": "Software Engineer",
         "company": "Advanced Radar Technologies",
         "period": "Sep. 2022 — Aug. 2024",
-        "description": ["Implemented radar tracking algorithms, tracker evaluation metrics, and DBSCAN clustering for radar tracks.", "Developed radar simulation features, target classification, data visualization tools, and MATLAB tools for measurement post-processing."]
+        "description": [
+          "Implemented radar tracking algorithms, tracker evaluation metrics, and DBSCAN clustering for radar tracks.",
+          "Developed radar simulation features, target classification, data visualization tools, and MATLAB tools for measurement post-processing."
+        ]
       },
       {
         "role": "Private Tutor",
         "company": "Freelance",
         "period": "Sep. 2018 — Mar. 2020",
-        "description": ["Tutored high-school students in mathematics, physics, and chemistry."]
+        "description": [
+          "Tutored high-school students in mathematics, physics, and chemistry."
+        ]
       }
     ],
     "skills": [
-      { "category": "Languages", "items": ["C#", "Python", "MATLAB", "LaTeX"] },
-      { "category": "Computer Vision", "items": ["PyTorch", "OpenCV", "Image segmentation", "Object tracking"] },
-      { "category": "Tools", "items": ["Git", "VS Code", "Visual Studio", "JIRA"] },
-      { "category": "Methods", "items": ["Signal processing", "Radar tracking", "DBSCAN", "3D reconstruction"] }
+      {
+        "category": "Languages",
+        "items": [
+          "C#",
+          "Python",
+          "MATLAB",
+          "LaTeX"
+        ]
+      },
+      {
+        "category": "Computer Vision",
+        "items": [
+          "PyTorch",
+          "OpenCV",
+          "Image segmentation",
+          "Object tracking"
+        ]
+      },
+      {
+        "category": "Tools",
+        "items": [
+          "Git",
+          "VS Code",
+          "Visual Studio",
+          "JIRA"
+        ]
+      },
+      {
+        "category": "Methods",
+        "items": [
+          "Signal processing",
+          "Radar tracking",
+          "DBSCAN",
+          "3D reconstruction"
+        ]
+      }
     ],
     "education": [
-      { "degree": "PhD Researcher", "institution": "Signal Processing Applications Group, Universidad Politécnica de Madrid", "period": "Sep. 2025 — Present", "details": ["Research in computer vision and efficient image segmentation."] },
-      { "degree": "MSc in Signal Processing and Machine Learning for Big Data", "institution": "Universidad Politécnica de Madrid", "period": "Sep. 2023 — Sep. 2025", "details": ["Thesis: Deep learning architecture for joint image segmentation and depth estimation in multi-camera systems."] },
-      { "degree": "BSc in Telecommunications Engineering", "institution": "Universidad Politécnica de Madrid", "period": "Sep. 2018 — Jun. 2024", "details": ["Thesis: Evaluation and optimization of tracking algorithms using OSPA metrics."] }
+      {
+        "degree": "PhD Researcher",
+        "institution": "Signal Processing Applications Group, Universidad Politécnica de Madrid",
+        "period": "Sep. 2025 — Present",
+        "details": [
+          "Research in computer vision and efficient image segmentation."
+        ]
+      },
+      {
+        "degree": "MSc in Signal Processing and Machine Learning for Big Data",
+        "institution": "Universidad Politécnica de Madrid",
+        "period": "Sep. 2023 — Sep. 2025",
+        "details": [
+          "Thesis: Deep learning architecture for joint image segmentation and depth estimation in multi-camera systems."
+        ]
+      },
+      {
+        "degree": "BSc in Telecommunications Engineering",
+        "institution": "Universidad Politécnica de Madrid",
+        "period": "Sep. 2018 — Jun. 2024",
+        "details": [
+          "Thesis: Evaluation and optimization of tracking algorithms using OSPA metrics."
+        ]
+      }
     ]
   }
 }
